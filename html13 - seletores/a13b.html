@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right, #222, #333);
+        }
+        div{
+            display:inline-block;
+            background-color: blueviolet;
+            width: 200px;
+            height: 200px;
+            border: 2px solid;
+            margin:20px;
+            padding: 10px;
+            text-align: center;            
+        }
+        
+        #d1{
+            background-color: #c35c66;
+            border-color: #c40316;
+            color: #c40316;
+
+        }
+        #d1:hover{
+            background-color:#c40316;
+            border-color: #68010c;
+            color: #c35c66;
+
+        }
+        #d2{
+            background-color: #7f9354;
+            border-color: #608b03;
+            color: #608b03;
+        }
+        #d2:hover{
+            background-color: #608b03;
+            border-color: #344e00;
+            color: #9eb66a;
+        }
+        #d3{
+            background-color: #80a9ab;
+            border-color:#06a3ac;
+            color:#06a3ac;
+        }
+        #d3:hover{
+            background-color:#06a3ac;
+            border-color:#05676e;
+            color:#95c6c9;
+        }
+        #d3 > p{
+            display: none;
+        }
+        #d3:hover > p{
+            display: block;
+        }
+        /* div:hover{
+            background-color:#555;
+            color: white;
+        }                           Esta configuração é sobrescrita pelos IDs*/
+
+    </style>
+</head>
+<body>
+    <div id="d1" class="h">01</div>
+    <div id="d2" class="h">02</div>
+    <div id="d3" class="h">03
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos iusto odit libero qui nemo, sed officia corporis saepe dolore illum voluptatibus dicta possimus, sunt ipsum consequuntur est magni, veniam deleniti.</p>    
+    </div>
+</body>
+</html>

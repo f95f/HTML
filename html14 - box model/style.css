@@ -1,0 +1,85 @@
+@charset "UTF-8"; 
+@font-face{
+    font-family: "olo";
+    src: url("../html12 - fontes/Olondon_.otf") format("opentype"), url("../html12 - fontes/OldLondon.ttf") format("truetype"); 
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #384006;
+}
+header{
+    background-color: #384006;
+    padding: 3px;
+}
+header > h1 {color: #f4f6c4;}
+h1{
+    font: 4em olo, sans-serif; 
+    text-align: center;
+    text-decoration: underline;
+    margin: 25px;
+    text-shadow: 0px 0px 12px rgba(0,0,0, .8);
+}
+nav{
+    text-align: center;
+    width: 100%;
+    padding-top:20px;
+}
+nav > a{
+    text-decoration: none;
+    color: #f4f6c4;
+    font-size: 1.2em;
+    margin: 0 3%;
+}
+nav > a:hover{color: #c2bf61;}
+nav > a:active{
+    color:#384006;
+    background-color: #41dfb4;
+}
+main{
+    background-color: #c2bf61;
+    padding: .5% 0;
+}
+section{
+    border: 1px solid #41dfb4;
+    margin: 20px 12%;
+    background-color: #f4f6c4;
+    box-shadow: 8px 8px 2px #384006;
+    border-radius: 5px 40px 15px 40px;
+}
+h2{
+    padding: 4px 2%;
+    margin: 0;
+    font-size: 1.2em;
+    background-color: #41dfb4;
+    border-radius: 5px 40px 0 0;
+    font-weight: 100;
+    color:#616e0d;
+}
+p{
+    padding: 0 3%;
+    text-align: justify;
+}
+aside{
+    text-align: left;
+    font: italic .9em sans-serif;
+    padding: 5px 0 15px 5%;
+    
+}
+span{font-weight: bold;}
+li{padding:5px}
+footer  {
+    padding: 10px;
+    background-color: #384006;
+}
+footer > p{
+    margin:0;
+    font-family: olo, sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    color: #f4f6c4;
+    
+}

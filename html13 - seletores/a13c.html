@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=0,0 initial-scale=1.0">
+    <title>Pseudo-Elementos</title>
+    <style>
+        @font-face {
+            font-family: olo;
+            src: url(../html12\ -\ fontes/OldLondon.ttf) format("truetype"), url(../html12\ -\ fontes/Olondon_.otf) format("opentype");
+        }
+        body{
+            font-family: sans-serif;
+            background-image: linear-gradient(to left, #156, #123);
+            color: #aad;
+            padding: 5px 80px;
+        }
+        h2{
+            font-family: olo, sans-serif;
+            font-size: 2em;
+        }
+        a{
+            text-decoration: none;
+            color: #99c;
+            font-weight: 100    ;
+        }
+        a:visited{
+            color: #778;
+            font-size:.8em;
+            font-weight: 0;
+        }
+        a:hover{
+            color: rgb(255, 255, 161);
+            font-size:3em;
+        }
+        a:active{
+            color:yellow;
+        }
+        a::after{
+            content: ' AAAA';
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2>Teste de estilo com links</h2>
+        <ul>
+            <li><a href="http://www.pudim.com.br" target="_blank">Maxime minima ea tempora</a> </li>
+            <li><a href="http://www.pudim.com.br" target="_blank">Repudiandae aliquam</a></li>
+            <li><a href="http://www.pudim.com.br" target="_blank">Lorem, ipsum dolor sit</a></li>
+            <li><a href="http://www.twitter.com.br" target="_blank">Quae deserunt aliquam veritatis?</a></li>
+        </ul>
+    </main>
+</body>
+</html>

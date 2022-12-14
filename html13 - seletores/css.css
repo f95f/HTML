@@ -1,0 +1,7 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(94, 112, 98);
+}
+h1#princ{
+    text-align: center;
+}
